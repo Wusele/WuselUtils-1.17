@@ -1,0 +1,17 @@
+name: WuselUtils
+version: '0.1'
+main: me.wusel.wuselutils.WuselUtils
+api-version: 1.17
+description: Strong API for Developers
+author: Antonia
+
+loadbefore:
+  - wuselcommands
+
+
+
+commands:
+  addons:
+    permission-message: "I'm sorry, but you don't seem to have the permissions to use this command"
+  unload:
+    permission-message: "I'm sorry, but you don't seem to have the permissions to use this command"
