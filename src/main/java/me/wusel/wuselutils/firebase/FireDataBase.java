@@ -14,6 +14,7 @@ import com.google.firebase.cloud.FirestoreClient;
 
 import javax.annotation.Nullable;
 import java.io.FileInputStream;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -126,6 +127,10 @@ public class FireDataBase {
             hashMap.put(keys.get(i), values.get(i));
         }
         return hashMap;
+    }
+
+    public Lis<String> makeList(String... content) {
+        return Arrays.asList(content);
     }
 
 
